@@ -7,6 +7,7 @@
     .end-g {
         gap: 20px;
         justify-content: space-between;
+        width: 100%;
     }
     .end-div {
         max-width: 48%;
@@ -61,8 +62,9 @@
         gap: 32px;
     }
 }
-@media(max-width:430px){
-    .end-p {
+
+@media(max-width:425px){
+    .end-div {
         max-width: 100%;
     }
     .one-h1 {
@@ -80,5 +82,18 @@
     .last-last {
         flex-wrap: wrap;
         gap: 32px;
+    }
+
+    .malo-vremia-div {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .one-div{
+        padding: 0;
+    }
+
+    .krutoi-div {
+        margin: 0;
     }
 }
